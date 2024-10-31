@@ -3,4 +3,5 @@ project(PathFinder)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(PathFinder main.cpp)
+add_executable(PathFinder main.cpp src/sipp/sipp.h
+        src/cbs/cbs.h)
